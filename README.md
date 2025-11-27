@@ -1,4 +1,4 @@
-````markdown
+
 # Русский голосовой транскриптор (полностью офлайн)
 
 Прототип для тестового задания: приложение, в котором пользователь нажимает кнопку, говорит в микрофон, а текст появляется на форме по мере речи.
@@ -44,7 +44,7 @@
 ### 3.1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/<ВАШ-ЛОГИН>/voice-llm-offline.git
+  git clone https://github.com/<ВАШ-ЛОГИН>/voice-llm-offline.git
 cd voice-llm-offline
 ````
 
@@ -53,7 +53,7 @@ cd voice-llm-offline
 ### 3.2. Виртуальное окружение
 
 ```bash
-python -m venv .venv
+  python -m venv .venv
 ```
 
 Активировать:
@@ -73,7 +73,7 @@ python -m venv .venv
 ### 3.3. Установка зависимостей
 
 ```bash
-pip install -r requirements.txt
+  pip install -r requirements.txt
 ```
 
 `requirements.txt`:
