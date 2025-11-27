@@ -58,23 +58,23 @@ voice-llm-offline/
 ### 1. Клонировать репозиторий
 
 ```bash
-git clone https://github.com/<your-account>/voice-llm-offline.git
-cd voice-llm-offline
+  git clone https://github.com/<your-account>/voice-llm-offline.git
+  cd voice-llm-offline
 ```
 
 ### 2. Создать виртуальное окружение и установить зависимости
 
 ```bash
-python -m venv .venv
-# Windows (PowerShell):
-.venv\Scripts\Activate.ps1
-# или cmd:
-.venv\Scripts\activate.bat
-# Linux / macOS:
-# source .venv/bin/activate
+  python -m venv .venv
+ # Windows (PowerShell):
+ .venv\Scripts\Activate.ps1
+ # или cmd:
+ .venv\Scripts\activate.bat
+ # Linux / macOS:
+ # source .venv/bin/activate
 
-pip install --upgrade pip
-pip install -r requirements.txt
+ pip install --upgrade pip
+ pip install -r requirements.txt
 ```
 
 ### 3. Скачать и установить Vosk-модель
