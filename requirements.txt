@@ -1,7 +1,7 @@
-vosk
-sounddevice
-numpy
-transformers
-torch
+vosk>=0.3.45
+sounddevice>=0.4.6
+numpy>=1.21.0
+transformers>=4.35.0
+torch>=2.0.0
 protobuf<5
 sentencepiece
