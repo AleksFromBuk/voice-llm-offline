@@ -1,0 +1,20 @@
+# Виртуальное окружение
+.venv/
+venv/
+
+# IDE
+.idea/
+
+# Модели и большие данные
+models/
+!models/README.md
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Прочее
+.DS_Store
+Thumbs.db

@@ -1,0 +1,7 @@
+vosk
+sounddevice
+numpy
+transformers
+torch
+protobuf<5
+sentencepiece
