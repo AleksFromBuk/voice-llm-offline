@@ -73,8 +73,8 @@ voice-llm-offline/
  # Linux / macOS:
  # source .venv/bin/activate
 
- pip install --upgrade pip
- pip install -r requirements.txt
+  pip install --upgrade pip # если не сработает — просто переходите к следующей строке
+  pip install -r requirements.txt
 ```
 
 ### 3. Скачать и установить Vosk-модель
